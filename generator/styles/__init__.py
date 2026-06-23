@@ -3,11 +3,13 @@ from __future__ import annotations
 from generator.styles.anime import AnimeStyle
 from generator.styles.base import VisualStyle
 from generator.styles.blank import BlankStyle
+from generator.styles.boom_bap import BoomBapStyle
 from generator.styles.synthwave import SynthwaveStyle
 
 STYLES: dict[str, type[VisualStyle]] = {
     SynthwaveStyle.name: SynthwaveStyle,
     AnimeStyle.name: AnimeStyle,
+    BoomBapStyle.name: BoomBapStyle,
     BlankStyle.name: BlankStyle,
 }
 
